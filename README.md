@@ -88,7 +88,7 @@ main browser for `.htm` files
 
 then it will open your project folder in `Visual Studio Code`
 
-***<a href="local-server/dev-log/other_vs_code.md">Here: Explanation for other VSCode</a>***
+***<a href="local-server/dev_envirment_dara/other_vs_code.md">Here: Explanation for other VSCode</a>***
 
 ### Better http server
 
