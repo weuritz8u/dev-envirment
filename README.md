@@ -48,9 +48,9 @@ make sure this is webbrowser!*
 
 - paste `<meta http-equiv="refresh" content="0.1;url='THE_PAGE_LINK'">`
 
-- replace 'THE_PAGE_LINK' with your and REMOVE `'`
+- replace `'THE_PAGE_LINK'` with your and REMOVE `''`
 
-- `"name".html` to `dev_open.bat` in a new line!
+- add `"name".html` to `dev_open.bat` in a new line!
 
 <h2 id="local-HTTP-server">local-HTTP-server</h2>
 
