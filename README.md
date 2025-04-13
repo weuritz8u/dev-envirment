@@ -10,6 +10,7 @@ Republishing**
 
 - <a href="#license_mit">More Infos</a>
 
+- *Dont forget to add the `.gitignore` file!*
 
 ## How to use
 
