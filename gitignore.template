@@ -6,3 +6,7 @@
 dev_envirment_dara/
 dev_install.cmd
 dev_start.cmd
+
+# local-HTTP-server -> dev_envirment_dara
+server_start.py
+addons/create_http_server.py
