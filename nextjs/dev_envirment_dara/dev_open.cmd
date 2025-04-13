@@ -1,3 +1,3 @@
-:: to open multiple webpages
+:: to open multiple webpages (htm files)
 
-home.html
+home.htm
