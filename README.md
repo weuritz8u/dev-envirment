@@ -7,7 +7,8 @@ a repository with file collection for my own dev envirment
 
 **Project is under MIT LICENSE but credit is only needed for
 Republishing**
-- *[More Infos](#LICENSE:-MIT)*
+
+- <a href="#license_mit">More Infos</a>
 
 ## Nextjs
 
@@ -48,7 +49,7 @@ file
 
 *feel free to contribute*
 
-### LICENSE: MIT
+<h3 id="license_mit">LICENSE: MIT</h3>
 
 BUT:
 
