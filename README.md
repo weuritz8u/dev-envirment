@@ -12,14 +12,18 @@ Republishing**
 
 ## How to use
 
-Copy the folder in to your project folder and copy the content of
-the `gitignore.template` file and add it your own `.gitignore` file
+Copy the **content** of the folder in to your project folder and copy
+the content of
+the `gitignore.template` file and add it your own `.gitignore` file,
+then scroll to the folder description *(index here donw below)* and
+read the documentation.
 
 ***template folders***
 
-- `nextjs`
+- <a href="#nextjs">`nextjs`</a>
+- <a href="#local-HTTP-server">`local-HTTP-server`</a>
 
-## Nextjs
+<h2 id="nextjs">Nextjs</h2>
 
 The folder contains 3 batch files
 
@@ -48,7 +52,13 @@ make sure this is webbrowser!*
 
 - `"name".html` to `dev_open.bat` in a new line!
 
-### .gitignore
+<h2 id="local-HTTP-server">local-HTTP-server</h2>
+
+run `server_start.py` to create a local HTTP Server in your project folder
+
+*More Infos available <a href="https://github.com/weuritz8u/local-HTTP-server">here</a>!*
+
+## .gitignore
 
 if you dont want to have all these files in your project, copy the
 content of the `gitignore.template` and add it to your `.gitignore`
