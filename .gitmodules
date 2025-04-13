@@ -1,3 +1,0 @@
-[submodule "local-HTTP-server"]
-	path = local-HTTP-server
-	url = https://github.com/weuritz8u/local-HTTP-server
