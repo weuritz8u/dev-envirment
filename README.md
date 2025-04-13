@@ -13,7 +13,7 @@ Republishing**
 ## How to use
 
 Copy the folder in to your project folder and copy the content of
-the `template.gitignore` file and add it your own `.gitignore` file
+the `gitignore.template` file and add it your own `.gitignore` file
 
 ***template folders***
 
