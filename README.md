@@ -120,6 +120,15 @@ you dont need the old http server anymore!
 *ignore it, if you have already renamed the `other_vs_code.md`
 file to `other_vs_code`, i can't show both of them ;)*
 
+**Note**
+
+the better HTTP Server does not start PORT `8000` when Port
+`8000` is busy, then the server will search for a new free
+Port and display the new Port in the Python console
+
+***<a href="https://github.com/weuritz8u/local-HTTP-server">More Information about the better HTTP Server</a>***
+
+
 ## .gitignore
 
 if you dont want to have all these files in your project, copy the
