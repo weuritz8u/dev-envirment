@@ -10,6 +10,7 @@ Republishing**
 
 - <a href="#license_mit">More Infos</a>
 
+
 ## How to use
 
 Copy the **content** of the folder in to your project folder and copy
@@ -23,7 +24,17 @@ read the documentation.
 - <a href="#nextjs">`nextjs`</a>
 - <a href="#local-HTTP-server">`local-HTTP-server`</a>
 
+
+<!-- 
+====================================================
+====================== Nextjs ======================
+====================================================
+-->
+
 <h2 id="nextjs">Nextjs</h2>
+
+*IMPORTANT: You should copy the **content** of the folder into
+yur root folder!*
 
 The folder contains 3 batch files
 
@@ -52,11 +63,61 @@ make sure this is webbrowser!*
 
 - add `"name".html` to `dev_open.bat` in a new line!
 
+
+<!-- 
+====================================================
+================= local-HTTP-server ================
+====================================================
+-->
+
 <h2 id="local-HTTP-server">local-HTTP-server</h2>
 
-run `server_start.py` to create a local HTTP Server in your project folder
+### Setup
 
-*More Infos available <a href="https://github.com/weuritz8u/local-HTTP-server">here</a>!*
+*IMPORTANT: You should copy the **content** of the folder into
+yur root folder!*
+
+run `run_server_for_testing.bat` to create a local HTTP Server
+in your project folder
+
+This will start a `HTTP Server` with Python in the root directory
+*(if python is installed and as a envirment var)*
+
+then the script will open the `localhost`on PORT: `8000` in your
+main browser for `.htm` files
+
+then it will open your project folder in `Visual Studio Code`
+
+***<a href="local-server/dev-log/other_vs_code.md">Here: Explanation for other VSCode</a>***
+
+### Better http server
+
+For a more detailed and better HTTP-Server, open the folder
+`local-HTTP-server` and copy it's content into `local-server`
+/ ***your project root folder***, when you added the new http
+server, delete `/dev_envirment_dara/http_server.py` because
+you dont need the old http server anymore!
+
+**Your folder path should now look like this:**
+
+```
+'project-root-folder'/
+
+    dev_envirment_dara/
+
+        localhost.8000.htm
+        other_vs_code.md
+
+    run_server_for_testing.bat
+
+    server_start.py
+
+    addons/
+        create_http_server.py
+```
+
+*ignore it, if you have already renamed the `other_vs_code.md`
+file to `other_vs_code`, i can't show both of them ;)*
 
 ## .gitignore
 
@@ -64,13 +125,14 @@ if you dont want to have all these files in your project, copy the
 content of the `gitignore.template` and add it to your `.gitignore`
 file
 
+
 ## Contributing
 
-*feel free to contribute*
+*feel free to contribute and your tools and scripts :)*
 
 <h3 id="license_mit">LICENSE: MIT</h3>
 
 BUT:
 
-**THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST USING
-AND DEVELEPING WITH THIS TOOL!!!**
+***THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST USING
+AND DEVELEPING WITH THIS TOOL!!!***
