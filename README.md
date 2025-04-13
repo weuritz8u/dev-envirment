@@ -23,6 +23,8 @@ start command then `npm run dev`
 
 Made to open multiple pages of the project in the browser
 
+*the page is opened in your standard programm for HTML files, make sure this is webbrowser!*
+
 - add a new `"name".html`
 
 - paste `<meta http-equiv="refresh" content="0.1;url='THE_PAGE_LINK'">`
