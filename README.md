@@ -10,6 +10,15 @@ Republishing**
 
 - <a href="#license_mit">More Infos</a>
 
+## How to use
+
+Copy the folder in to your project folder and copy the content of
+the `template.gitignore` file and add it your own `.gitignore` file
+
+***template folders***
+
+- `nextjs`
+
 ## Nextjs
 
 The folder contains 3 batch files
@@ -53,4 +62,5 @@ file
 
 BUT:
 
-**THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST USING AND DEVELEPING WITH THIS TOOL!!!**
+**THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST USING
+AND DEVELEPING WITH THIS TOOL!!!**
