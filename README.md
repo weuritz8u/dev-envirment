@@ -89,7 +89,8 @@ main browser for `.htm` files
 
 then it will open your project folder in `Visual Studio Code`
 
-***<a href="local-server/dev_envirment_dara/other_vs_code.md">Here: Explanation for other VSCode</a>***
+***<a href="local-server/dev_envirment_dara/other_vs_code.md">
+Here: Explanation for other VSCode</a>***
 
 ### Better http server
 
@@ -126,7 +127,8 @@ the better HTTP Server does not start PORT `8000` when Port
 `8000` is busy, then the server will search for a new free
 Port and display the new Port in the Python console
 
-***<a href="https://github.com/weuritz8u/local-HTTP-server">More Information about the better HTTP Server</a>***
+***<a href="https://github.com/weuritz8u/local-HTTP-server">
+More Information about the better HTTP Server</a>***
 
 
 ## .gitignore
@@ -144,5 +146,5 @@ file
 
 BUT:
 
-***THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST USING
-AND DEVELEPING WITH THIS TOOL!!!***
+***THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST
+USING AND DEVELEPING WITH THIS TOOL!!!***
