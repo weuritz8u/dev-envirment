@@ -5,6 +5,10 @@
 
 a repository with file collection for my own dev envirment
 
+**Project is under MIT LICENSE but credit is only needed for
+Republishing**
+- *[More Infos](#LICENSE:-MIT)*
+
 ## Nextjs
 
 The folder contains 3 batch files
@@ -23,7 +27,8 @@ start command then `npm run dev`
 
 Made to open multiple pages of the project in the browser
 
-*the page is opened in your standard programm for HTML files, make sure this is webbrowser!*
+*the page is opened in your standard programm for HTML files,
+make sure this is webbrowser!*
 
 - add a new `"name".html`
 
@@ -43,8 +48,8 @@ file
 
 *feel free to contribute*
 
-LICENSE: MIT
+### LICENSE: MIT
 
 BUT:
 
-**THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST USING!!!**
+**THIS IS ONLY IMPORTANT FOR REPUBLISHING, NO CREDIT NEEDED FOR JUST USING AND DEVELEPING WITH THIS TOOL!!!**
