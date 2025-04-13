@@ -14,8 +14,8 @@ Republishing**
 
 ## How to use
 
-Copy the **content** of the folder in to your project folder and copy
-the content of
+Copy the **content** of one ore more templatefolders into your project
+folder and copy the content of
 the `gitignore.template` file and add it your own `.gitignore` file,
 then scroll to the folder description *(index here donw below)* and
 read the documentation.
@@ -24,6 +24,19 @@ read the documentation.
 
 - <a href="#nextjs">`nextjs`</a>
 - <a href="#local-HTTP-server">`local-HTTP-server`</a>
+
+**Your Folder Path should now look like this:**
+
+- *`root/` is your project folder*
+- copy the content of the folder into your `root/` directory
+
+```
+root/
+    (content of 'local-server')
+    (content of 'nextjs')
+```
+
+*I think you are getting how this works!*
 
 
 <!-- 
@@ -120,6 +133,12 @@ you dont need the old http server anymore!
 
 *ignore it, if you have already renamed the `other_vs_code.md`
 file to `other_vs_code`, i can't show both of them ;)*
+
+then open the `run_server_for_testing.bat` file and replace
+*old:* `start python "%cd%\dev_envirment_dara\http_server.py"`
+with *new:* `start python "%cd%\server_start.py"`
+
+**Both HTTP Servers will run until you close the terminal!**
 
 **Note**
 
