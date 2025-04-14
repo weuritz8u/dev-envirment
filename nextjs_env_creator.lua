@@ -5,6 +5,7 @@ dev_envirment_dara/
 dev_start.cmd
 dev_install.cmd
 dev_open.cmd
+nextjs_env_creator.lua
 ]]
 
 local start_cmd_c = [[
@@ -35,7 +36,7 @@ local home_htm_c = [[
 
 -- functions
 local function create_file(name, content)
-    local file, err = io.open(name, "a")
+    local file, err = io.open(name, "w")
     if not file then
         print("Error while opening the file!:", err)
         return false
@@ -52,7 +53,13 @@ io.write("Web Envirment Setup by Shadowdara\n\n")
 os.execute("mkdir dev_envirment_dara")
 os.execute("mkdir src")
 
-create_file('.gitignore', gitignore_c)
+local file = io.open('.gitignore', "a")
+if not file then
+    file = io.open('.gitignore', "w")
+end
+file:write(gitignore_c)
+file:close()
+
 create_file('dev_start.cmd', start_cmd_c)
 create_file('dev_install.cmd', install_cmd_c)
 create_file('dev_open.cmd', open_cmd_c)
