@@ -13,17 +13,17 @@ nextjs_env_creator.lua
 local start_cmd_c = [[
 :: to start the programm locally for developing
 
-npm run dev
+start npm run dev
 dev_open.cmd
 ]]
 
 local install_cmd_c = [[
 :: to install requirements for local testing
 
-start npm install
-start npm install next
-start npm install cors
-start npm install @types/cors --save-dev
+npm install
+npm install next
+npm install cors
+npm install @types/cors --save-dev
 ]]
 
 local open_cmd_c = [[
