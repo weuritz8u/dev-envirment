@@ -4,10 +4,11 @@
 
 # Dev Envirment Creator
 
-a repository with file collection for my own dev envirment
+a repository with files for my own dev envirment
 
 *Yeah, you need lua for this ;)*
 
+<!--
 
 ## Index
 
@@ -76,7 +77,7 @@ This a the requirements for the special Creators
         <td>❌</td>
         <td>❌</td>
         <td>❌</td>
-    </tr>-->
+    </tr>->
 </table>
 
 
@@ -220,6 +221,8 @@ Made by:
 
 
 ## **Made with ❤️**
+
+-->
 
 <!--
 **Project is under MIT LICENSE but credit is only needed for
