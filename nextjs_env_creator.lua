@@ -1,6 +1,8 @@
 -- script written by Shadowdara
 
 local gitignore_c = [[
+
+# lua env creator
 dev_envirment_dara/
 dev_start.cmd
 dev_install.cmd
