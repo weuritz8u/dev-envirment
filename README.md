@@ -25,6 +25,7 @@ a repository with files for my own dev envirment
 
 - <a href="#nextjsenc-creator">Nextjsenv-Creator</a>
 
+-->
 
 <h2 id="how_to_use">How to use</h2>
 
