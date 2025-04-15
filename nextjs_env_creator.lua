@@ -20,10 +20,17 @@ dev_open.cmd
 local install_cmd_c = [[
 :: to install requirements for local testing
 
-npm install
-npm install next
-npm install cors
-npm install @types/cors --save-dev
+start npm install
+pause
+
+start npm install next
+pause
+
+start npm install cors
+pause
+
+start npm install @types/cors --save-dev
+pause
 ]]
 
 local open_cmd_c = [[
